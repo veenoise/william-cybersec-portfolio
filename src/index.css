@@ -1,0 +1,14 @@
+.active-scroll-spy {
+  background-color: #1ac71a;
+  color: rgb(30, 30, 30) !important;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+::placeholder, input, textarea {
+  color: yellowgreen !important;
+}
+
+html {
+  scroll-padding-top: 56px; /* height of your navbar */
+}
