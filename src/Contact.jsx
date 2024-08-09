@@ -3,7 +3,7 @@ function Contact() {
 		<>
 			<div className="container" style={{marginTop: "56px"}} id="contact">
 				<h2 className="mb-4">contact</h2>
-				<form>
+				<form target="_blank" action="https://formspree.io/f/xkgwbryq" method="post">
 					<div className="mb-3">
 						<label htmlFor="fullname" className="form-label">full name <span className="text-danger">*</span></label>
 						<input type="text" className="form-control bg-dark" id="fullname" name="Fullname" aria-describedby="emailHelp" placeholder="John Doe" required />
