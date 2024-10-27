@@ -9,9 +9,13 @@ function Skill() {
 							<ul>
 								<li>burp suite</li>
 								<li>nmap</li>
+								<li>enum4linux</li>
 								<li>metasploit</li>
 								<li>wireshark</li>
 								<li>gobuster</li>
+								<li>nikto</li>
+								<li>owasp zap</li>
+								<li>john the ripper</li>
 							</ul>
 						</div>
 						<div className="col-6 col-md-4">
