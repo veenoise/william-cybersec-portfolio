@@ -11,7 +11,7 @@ function Experience() {
 							<li>Practical experience in cybersecurity tools such as NMAP, Burp Suite, Metasploit, OWASP ZAP, Snort, Splunk, and more</li>
 							<li>Ranked top 5% in the platform</li>
 							<li>200+ days streak on continuous learning</li>
-							<li>3000+ events in the yer 2024</li>
+							<li>3000+ events in the year 2024</li>
 							<li>80+ completed rooms</li>
 							<li>13+ badges obtained such as Linux PrivEsc, Hash Cracker, Cyber Ready, and Blue</li>
 						</ul>
