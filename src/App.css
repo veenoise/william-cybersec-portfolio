@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
   background-color: #0f0f0f;
 }
@@ -101,7 +105,6 @@ footer {
     border-radius: 10px; 
   }
 }
-
 
 @keyframes moveMagnifying {
   0% {transform: translate(0);}
