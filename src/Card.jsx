@@ -7,6 +7,7 @@ function Card(props) {
 					<div className="card-body d-flex flex-column justify-content-between">
 						<div className="mb-3">
 							<h5 className="card-title fw-bold">{props.title}</h5>
+							<p className="card-text">{props.tags}</p>
 							<p className="card-text">{props.description}</p>
 						</div>
 						<div className='d-flex justify-content-end'>
