@@ -14,6 +14,8 @@ function Skill() {
 								<li>wireshark</li>
 								<li>gobuster</li>
 								<li>nikto</li>
+								<li>radare2</li>
+								<li>cyberchef</li>
 								<li>owasp zap</li>
 								<li>john the ripper</li>
 							</ul>
@@ -26,6 +28,7 @@ function Skill() {
 								<li>windows</li>
 								<li>vim</li>
 								<li>git</li>
+								<li>github</li>
 							</ul>
 						</div>
 						<div className="col-12 col-md-4">
