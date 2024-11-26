@@ -4,13 +4,13 @@ import Root from './routes/root'
 import ErrorPage from "./error-page";
 import './index.css'
 import {
-  createHashRouter,
+  createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 import Blog from './Blog/Blog'
 import App from './App'
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
