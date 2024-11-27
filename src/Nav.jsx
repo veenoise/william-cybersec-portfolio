@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 function Nav(){
 	const location = useLocation();
@@ -20,19 +21,19 @@ function Nav(){
 									location.pathname === '/' ? 
 									<>
 										<li className="nav-item">
-											<a className="nav-link text-center" data-to-scrollspy-id="home" href="#home">Home</a>
+											<HashLink className="nav-link text-center" data-to-scrollspy-id="home" to="#home">Home</HashLink>
 										</li>
 										<li className="nav-item">
-											<a className="nav-link text-center" data-to-scrollspy-id="skills" href="#skills">Skills</a>
+											<HashLink className="nav-link text-center" data-to-scrollspy-id="skills" to="#skills">Skills</HashLink>
 										</li>
 										<li className="nav-item">
-											<a className="nav-link text-center" data-to-scrollspy-id="experience" href="#experience">Experience</a>
+											<HashLink className="nav-link text-center" data-to-scrollspy-id="experience" to="#experience">Experience</HashLink>
 										</li>
 										<li className="nav-item">
-											<a className="nav-link text-center" data-to-scrollspy-id="projects" href="#projects">Projects</a>
+											<HashLink className="nav-link text-center" data-to-scrollspy-id="projects" to="#projects">Projects</HashLink>
 										</li>
 										<li className="nav-item">
-											<a className="nav-link text-center" data-to-scrollspy-id="contact" href="#contact">Contact</a>
+											<HashLink className="nav-link text-center" data-to-scrollspy-id="contact" to="#contact">Contact</HashLink>
 										</li>
 									</>
 									:
