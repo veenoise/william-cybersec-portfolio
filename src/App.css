@@ -81,6 +81,7 @@ footer {
 
 .card {
   --bs-card-border-color: none !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .bg-darkbg-dark {
@@ -93,6 +94,43 @@ footer {
 
 .nav-item {
   list-style: none;
+}
+
+
+/* Pagination Specific */
+.page-item {
+  list-style-type: none;
+}
+
+.page-link {
+  background: -webkit-linear-gradient(270deg, hsla(0, 0%, 15%, 1) 0%, hsla(0, 0%, 10%, 1) 100%) !important;
+}
+
+/* Blog Post Specific */
+strong {
+  font-size: 1.10rem;
+  font-weight: bold;
+}
+
+em, p {
+  line-height: 2rem;
+}
+
+code {
+  background-color: #001F1F;
+  color: #00FFFF !important;
+}
+
+pre {
+  background-color: #001F1F;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+pre code {
+  background-color: transparent;
+  color: #00FFFF !important; 
 }
 
 @media only screen and (min-width: 768px) {

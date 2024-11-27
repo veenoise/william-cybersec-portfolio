@@ -47,7 +47,7 @@ function Nav(){
 								
 								<li className="nav-item">
 									<Link 
-										to="/blogs" 
+										to="/blogs?page=1" 
 										className="nav-link text-center"
 										style={{
 											textDecoration: "none", 
