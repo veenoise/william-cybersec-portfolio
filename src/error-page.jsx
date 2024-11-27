@@ -7,6 +7,7 @@ export default function ErrorPage() {
     '/skills', 
     '/experience', 
     '/projects', 
+    '/certificates', 
     '/contact'
   ];
   const location = useLocation();
