@@ -8,6 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Blog from './Blog/Blog'
+import BlogPost from './Blog/BlogPost'
 import App from './App'
 
 const router = createHashRouter([
@@ -23,6 +24,10 @@ const router = createHashRouter([
       {
         path: "blogs/",
         element: <Blog />,
+      },
+      {
+        path: "blogs/:slug",
+        element: <BlogPost />,
       },
     ],
 
