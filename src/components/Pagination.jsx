@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 
 const Pagination = ({ totalPage, currentPage, setPageClick, pageClick }) => {
   const pages = Array.from({length: totalPage}, (v, k) => k+1); 
-  console.log(pages)
 
   return (
     <nav aria-label="Page navigation">

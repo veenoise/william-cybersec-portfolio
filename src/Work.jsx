@@ -1,5 +1,5 @@
 import seen from './assets/seen.png'
-import gemini from './assets/gemini_cli.png'
+import secureMultiplayerGame from './assets/secureMultiplayerGame.png'
 import pomodoro from './assets/pomodoro.png'
 import nmap from './assets/nmap.png'
 import keylogger from './assets/keylogger.png'
@@ -14,45 +14,59 @@ function Work() {
 				<div className="row row-cols-1 row-cols-md-3 g-4">
 					<Card 
 						imgSrc={seen}
-						altText='img of seen'
+						altText='Image of seen'
 						title='Seen'
-						description='This is a flask web application for the Cybersecurity department of GDSC in the capture-the-flag event I hosted.'
+						description='I developed and hosted a Capture the Flag website using Flask for GDSC to introduce users to cybersecurity concepts. The site, featuring challenges in puzzles, cryptography, web foundations, and forensics, is hosted on DigitalOcean with Nginx as a reverse proxy.'
 						btnRedirect='https://github.com/veenoise/seen'
 					/>
 					<Card 
-						imgSrc={checker}
-						altText='img of sha256 file hash checker'
-						title='Sha256FileHashChecker'
-						description='The project is a simple application for checking the file hash of a downloaded file to ensure the integrity of the file.'
-						btnRedirect='https://github.com/veenoise/Sha256FileHashChecker'
+						imgSrc={secureMultiplayerGame}
+						altText='Image of Secure Multiplayer Game'
+						title='Secure Multiplayer Game'
+						description='I created a multiplayer game using Socket.io, Node.js, and ExpressJS, incorporating features like smooth player movement, scoring, and collision detection. Security measures included HelmetJS, preventing XSS, disabling client-side caching, and handling client connections securely.'
+						btnRedirect='https://github.com/veenoise/boilerplate-project-secure-real-time-multiplayer-game'
 					/>
 					<Card 
 						imgSrc={keylogger}
-						altText='img of keylogger web extension'
+						altText='Image of keylogger web extension'
 						title='KeyloggerWebExtension'
 						description='This project is a web extension that checks keystrokes. You can send the keystrokes to your server to monitor user activity of the target device.'
 						btnRedirect='https://github.com/veenoise/KeyloggerWebExtension'
 					/>
 					<Card 
+						imgSrc={keylogger}
+						altText='Image of Messageboard'
+						title='Messageboard'
+						description='This project focused on implementing security mechanisms to enhance application security. Key measures included using HelmetJS for security headers, xFrameOptions to prevent clickjacking, disabling DNS prefetching, setting referrerPolicy to same-origin, and creating functional tests with Chai HTTP.'
+						btnRedirect='https://github.com/veenoise/boilerplate-project-messageboard'
+					/>
+					<Card 
 						imgSrc={nmap}
-						altText='img of nmap'
-						title='NmapBashScript'
-						description='Bash script to easily use common commands in NMAP.'
-						btnRedirect='https://github.com/veenoise/NmapBashScript'
+						altText='Image of nmap'
+						title='Python-Based NMAP'
+						description='I built a Python-based port scanning tool, similar to NMAP, for network enumeration. It uses the socket module for connections, the validators module for IP validation, python-nmap for running commands, and Tabulate for better-formatted output.'
+						btnRedirect='https://github.com/veenoise/boilerplate-port-scanner'
 					/>
 					<Card 
 						imgSrc={pomodoro}
-						altText='img of pomodoro timer'
-						title='Pomodoro-Timer-Bash-Demo'
-						description='Bash script demo used in my bash session talk. It is a simple pomodoro created using bash scripting language.'
-						btnRedirect='https://github.com/veenoise/Pomodoro-Timer-Bash-Demo'
+						altText='Image of Stock Price Checker'
+						title='Stock Price Checker'
+						description='I developed a stock checker application connected to a SQLite database and integrated with the FreeCodeCamp stock price checker API. Security was enhanced using HelmetJS v3.1.0 and a robust Content Security Policy for defaultSrc, scriptSrc, and styleSrc.'
+						btnRedirect='https://github.com/veenoise/boilerplate-project-stockchecker'
 					/>
 					<Card 
-						imgSrc={gemini}
-						altText='img of gemini cli'
-						title='Gemini-CLI'
-						description='A simple application to integrate gemini in terminal using python and aliasing it in ~/.bashrc.'
-						btnRedirect='https://github.com/veenoise/Gemini-CLI'
+						imgSrc={secureMultiplayerGame}
+						altText='Image of SHA1 Password Cracker'
+						title='SHA1 Password Cracker'
+						description='In this project, I implemented a password cracker that compares SHA-1 hashes of top 10,000 passwords against a given hash, with an optional feature to prepend and append salts to passwords for added security. I learned how to work with Python’s hashlib library for hashing and how to securely handle password data by applying salting techniques.'
+						btnRedirect='https://github.com/veenoise/boilerplate-SHA-1-password-cracker'
+					/>
+					<Card 
+						imgSrc={secureMultiplayerGame}
+						altText='Image of Securing Repository Supply Chain'
+						title='Securing Repository Supply Chain'
+						description='I completed the "skills-secure-repository-supply-chain" project from GitHub, where I focused on securing the software supply chain and repository by implementing best practices for dependency management and vulnerability scanning. This project helped me gain hands-on experience in using tools for secure development and ensuring the integrity of code and dependencies in a repository.'
+						btnRedirect='https://github.com/veenoise/skills-secure-repository-supply-chain'
 					/>
 				</div>
 			</div>

@@ -3,7 +3,7 @@ function Skill() {
 		<>	
 			<div style={{marginTop: "56px"}} id="skills">
 				<div className="container h-100">
-					<h2>skills</h2>
+					<h2 className="mb-4">skills</h2>
 					<div className="row">
 						<div className="col-6 col-md-4">
 							<ul>

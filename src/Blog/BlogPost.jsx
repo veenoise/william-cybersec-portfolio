@@ -11,7 +11,6 @@ const BlogPost = () => {
     const fetchData = async () => {
       const wispBlogFetch = await wisp.getPost(slug);
       setBlog(wispBlogFetch.post);
-      console.log(wispBlogFetch)
     }
     fetchData();
   }, [])
