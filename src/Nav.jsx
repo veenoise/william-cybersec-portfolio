@@ -33,7 +33,7 @@ function Nav(){
 											<HashLink className="nav-link text-center" data-to-scrollspy-id="projects" to="#projects">Projects</HashLink>
 										</li>
 										<li className="nav-item">
-											<HashLink className="nav-link text-center" data-to-scrollspy-id="certificates" to="#certificates">certificates</HashLink>
+											<HashLink className="nav-link text-center" data-to-scrollspy-id="certificates" to="#certificates">Certificates</HashLink>
 										</li>
 										<li className="nav-item">
 											<HashLink className="nav-link text-center" data-to-scrollspy-id="contact" to="#contact">Contact</HashLink>
