@@ -6,16 +6,25 @@ import cs50Cybersecurity from "./assets/cs50_cyber.jpeg";
 import python from "./assets/python.png";
 import mastercard from "./assets/mastercard.png";
 import cs50x from "./assets/cs50x.png";
+import certifiedAppSec from "./assets/certifiedAppSec.png";
 
 const Certificates = () => {
   const images = [
     {
-      original: github,
-      thumbnail: github,
+      original: certifiedAppSec,
+      thumbnail: certifiedAppSec,
     },
     {
       original: freeCodeCamp,
       thumbnail: freeCodeCamp,
+    },
+    {
+      original: mastercard,
+      thumbnail: mastercard,
+    },
+    {
+      original: github,
+      thumbnail: github,
     },
     {
       original: networking,
@@ -24,18 +33,14 @@ const Certificates = () => {
     {
       original: cs50Cybersecurity,
       thumbnail: cs50Cybersecurity,
+    },    
+    {
+      original: cs50x,
+      thumbnail: cs50x,
     },
     {
       original: python,
       thumbnail: python,
-    },
-    {
-      original: mastercard,
-      thumbnail: mastercard,
-    },
-    {
-      original: cs50x,
-      thumbnail: cs50x,
     },
   ];
   
