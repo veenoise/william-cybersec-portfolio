@@ -13,7 +13,7 @@ function Work() {
 		<>
 			<div className="container" style={{marginTop: "56px"}} id="projects">
 				<h2 className="mb-4">projects</h2>
-				<div className="row row-cols-1 row-cols-md-3 g-4">
+				<div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 					<Card 
 						imgSrc={seen}
 						altText='Image of seen'

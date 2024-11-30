@@ -19,7 +19,7 @@ const Pagination = ({ totalPage, currentPage, setPageClick, pageClick }) => {
         {
           pages.map(elem => {
             return (
-              <li key={elem} className="page-item"><Link className="page-link" to={`/blogs?page=${elem}`} onClick={() => setPageClick(!pageClick)}>{elem}</Link></li>
+              <li key={elem} className={`page-item ${elem === currentPage ? "active" : ""}`}><Link className="page-link" to={`/blogs?page=${elem}`} onClick={() => setPageClick(!pageClick)}>{elem}</Link></li>
             )
           })
         }
