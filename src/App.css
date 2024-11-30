@@ -13,7 +13,6 @@ body {
 * {
   font-family: "Share Tech Mono", monospace;
   color: #32CD32 !important;
-  /* outline: solid red 1px; */
 }
 
 input, textarea {
@@ -30,6 +29,15 @@ input, textarea {
 }
 
 .btn:hover, .btn:hover > p, img {
+  color: #111211 !important;
+
+  img {
+    background-color: #111211 !important;
+    border-radius: 5px;
+  }
+}
+
+.btn:focus, .btn:focus > p {
   color: #111211 !important;
 
   img {
@@ -100,6 +108,11 @@ footer {
 /* Pagination Specific */
 .page-item {
   list-style-type: none;
+}
+
+.active > .page-link {
+  border-color: #32CD32 !important;
+  background-color: white!important;
 }
 
 .page-link {
